@@ -35,7 +35,7 @@ Then place this **.env** file in the root of the app subdirectory *(i.e. app/.en
 
 Bot requires Python 3.8 installed on your system.
 
-Install project dependecies through PIP:
+Install project dependecies through **PIP**:
 
 ```
 pip install -r requirements.txt
