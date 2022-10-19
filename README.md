@@ -22,7 +22,7 @@ Then place this .env file in the root of the app subdirectory (i.e. app/.env):
 ├── Dockerfile
 ├── requirements.txt
 └── app/
-      ├── .env <----PLACE FILE HERE
+      ├── .env <---- [PLACE FILE HERE]
       ├── main.py
       ├── cogs/
       |     └── ...
