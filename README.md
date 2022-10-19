@@ -7,7 +7,7 @@ https://api.mir4.gq/v1/
 
 # Before Running...
 
-Make sure to create a .env file and place your Discord token inside there, like so:
+Make sure to create a **.env** file and place your Discord token inside there, like so:
 
 ```
 DISCORD_TOKEN=your_discord_token_goes_here
