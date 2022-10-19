@@ -69,7 +69,8 @@ class BaseCog(commands.Cog):
                 pass
 
         elif isinstance(error, commands.MissingRequiredArgument):
-            await ctx.send(error)
+            #await ctx.send(error)
+            print(error)
 
         else:
             # All other Errors not returned come here. And we can just print the default TraceBack.
