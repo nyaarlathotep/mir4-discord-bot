@@ -1,21 +1,40 @@
 # mir4-discord-bot
 A Discord bot that interacts with the Mir4 API.
 
+# Before Running...
 
-# **Installation Requirements (Native System)**
+Make sure to create a .env file and place your Discord token inside there, like so:
 
-Bot requires Python 3.8.
+```
+DISCORD_TOKEN=your_discord_token_goes_here
+```
 
-Install Python dependecies:
+Then place this .env file in the root of the app subdirectory (i.e. app/.env):
+
+```
+.
+├── ...
+├── docker-compose.yml
+├── Dockerfile
+├── requirements.txt
+└── app/
+      ├── .env <----PLACE FILE HERE
+      ├── main.py
+      ├── cogs/
+      |     └── ...
+      ├── lib/
+      |     └── ...
+     ...
+```
+
+# **Running Bot Natively**
+
+Bot requires Python 3.8 installed on your system.
+
+Install project dependecies through PIP:
 
 ```
 pip install -r requirements.txt
-```
-
-Make sure to add an environment variable with your Discord token called:
-
-```
-DISCORD_TOKEN
 ```
 
 Run bot with command:
@@ -26,15 +45,10 @@ python app/main.py
 
 
 
-# **Installation Requirements (Docker)**
+# **Running Bot Through Docker (Compose)**
 
-Add a *.env* file to the root directory that contains your Discord token.
+Run the bot by simply entering the following command in the root directory:
 
-```
-DISCORD_TOKEN=your_discord_token_goes_here
-```
-
-Then run in Docker (Docker Compose) by entering the command:
 ```
 docker-compose up
 ```
