@@ -1,5 +1,9 @@
 import os
 import factories.discord_factory as discord_factory
+from dotenv import load_dotenv
+
+# take environment variables from app/.env.
+load_dotenv()
 
 # create a discord bot instance using factory function
 discord_bot = discord_factory.create_instance()

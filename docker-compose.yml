@@ -5,7 +5,7 @@ services:
   mir4bot:
     build: '.'
     env_file:
-        - .env     # path to your .env file
+        - app/.env     # path to your .env file
     command: python app/main.py
     environment:
       PYTHONUNBUFFERED: 'true'
