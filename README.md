@@ -49,7 +49,7 @@ python app/main.py
 
 
 
-# **Running Bot Through Docker (Compose)**
+# **Running Bot Through Docker [Compose]
 
 Run the bot by simply entering the following command in the root directory:
 
