@@ -1,6 +1,10 @@
 # mir4-discord-bot
 A Discord bot that interacts with the Mir4 API.
 
+```
+https://api.mir4.gq/v1/
+```
+
 # Before Running...
 
 Make sure to create a .env file and place your Discord token inside there, like so:
