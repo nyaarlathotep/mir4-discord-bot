@@ -13,7 +13,7 @@ Make sure to create a **.env** file and place your Discord token inside there, l
 DISCORD_TOKEN=your_discord_token_goes_here
 ```
 
-Then place this **.env** file in the root of the app subdirectory *(i.e. app/.env)*:
+Then place this **.env** file in the root of the *app* subdirectory *(i.e. app/.env)*:
 
 ```
 .
